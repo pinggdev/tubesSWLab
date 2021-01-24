@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #253342 !important;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-nav {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color:#3d8b47 !important;
+    margin-left: 100px;
+}
+
+@media (max-width:500px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 0px;
+    }
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #253342 !important;
+}
+
+.tentangKami .headerKelompok {
+    color: #3d8b47 !important;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tentangKami .row .loopingStyle {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.tentangKami .row .kotakKami  {
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 25px;
+}
+
+.tentangKami .row .kotakKami img  {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;   
+    text-align: center; font-weight: 500;
+}
+
+.tentangKami .loopingStyle .kotakKami .nama {
+    color: #3d8b47 !important;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tentangKami .loopingStyle .kotakKami .nim {
+    color: #3d8b47 !important;
+    text-align: center;
+}
+
+.footer {
+    background-color: #3d8b47;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: white !important;
+    margin-top: 50px;
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #253342 !important;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-nav {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color:#3d8b47 !important;
+    margin-left: 100px;
+}
+
+@media (max-width:500px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 0px;
+    }
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #253342 !important;
+}
+
+.headerLogo {
+    margin-top: 10px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bodySatu {
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bodySatu .visiMisiRS h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bodySatu .visiMisiRS p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bodySatu .moto h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bodySatu .moto p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bodySatu .sejarah h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bodySatu .sejarah img {
+    width: 100%;
+}
+
+.bodySatu .sejarah p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.bodySatu .alamat p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+.footer {
+    background-color: #3d8b47;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: white !important;
+    margin-top: 50px;
+}

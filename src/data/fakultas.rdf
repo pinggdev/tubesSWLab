@@ -1,0 +1,343 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="https://www.w3.org/2002/07/owl#"
+    xmlns:si="https://www.usu.ac.id/id/fakultas/"
+    xmlns:fns="https://www.fake_namespace/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+    <owl:Ontology rdf:about="https://www.usu.ac.id/id/fakultas/">
+        <dc:title>Ontology Fakultas USU</dc:title>
+        <dc:description>Pembuatan Ontology untuk Fakultas USU</dc:description>
+    </owl:Ontology>
+
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/">
+        <foaf:name>Fakultas Universitas Sumatera Utara</foaf:name>
+        <rdfs:comment>Class Utama dari semua Subclass</rdfs:comment>
+    </owl:Class>
+
+
+    <!-- FK -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/kedokteran">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Kedokteran</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Kedokteran.jpg" />
+        <fns:latarBelakang>Fakultas Kedokteran USU berdiri pada tanggal 20 Agustus 1952.</fns:latarBelakang>
+        <fns:visi>Mewujudkan Fakultas Kedokteran USU pada tahun 2014 menjadi institusi pendidikan kedokteran terdepan menuju centre of excellence dalam bidang kedokteran tropis (tropical medicine) dan penyakit keganasan (oncology) di Indonesia.</fns:visi>
+        <fns:misi>1. Meningkatkan kualitas sumber daya manusia yang professional, beretika dan berbasis kompetensi.</fns:misi>
+        <fns:misi>2. Mengembangkan kurikulum pendidikan yang berbasis kompetensi dengan pendekatan kedokteran keluarga (community medicine).</fns:misi>
+        <fns:misi>3. Memusatkan pendalaman pengetahuan dan ketrampilan mahasiswa dalam pelayanan kesehatan primer dengan penguatan pada penyakit tropis dan penyakit keganasan.</fns:misi>
+        <fns:misi>4. Membangun kerjasama dengan institusi lain dalam bidang kedokteran tropis dan penyakit keganasan.</fns:misi>
+        <fns:misi>5. Meningkatkan, melengkapi sarana dan prasarana yang memperkuat proses pembelajaran dan penelitian yang berhubungan dengan kedokteran tropis dan penyakit keganasan.</fns:misi>
+        <fns:pstudi>Program Studi Pendidikan Kedokteran</fns:pstudi>
+        <fns:alamat>Jl.Dr. T. Mansur No.5 Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FK -->
+
+
+    <!-- FIB -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/ilmubudaya">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Ilmu Budaya</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_IlmuBudaya.jpg" />
+        <fns:latarBelakang>Berdirinya Fakultas Sastra diawali dengan keluarnya Surat Keputusan Menteri Perguruan Tinggi Ilmu Pengetahuan Nomor: 190/1965 terhitung mulai 25 Agustus 1965. Pada awalnya Fakultas Sastra hanya mempunyai satu jurusan yakni jurusan Bahasa dan Sastra Indonesia dengan jumlah mahasiswa 45 orang. Kemudian pada awal tahun 1966, Fakultas Sastra memperoleh gedung sendiri yang terletak dibahagian depan Sekolah TK Dharma Wanita USU, tetapi gedung ini sangat kecil. Setahun kemudian Fakultas Sastra mendapat tambahan gedung eks PU di Jl. Prof. Muhammad Yusuf, tapi masih juga sangat minim dan tidak memenuhi syarat untuk perkuliahan karena ruangannya hanya empat buah, dua ruang untuk perkuliahan dan dua ruang untuk administrasi.
+            Pada tahun 1966 Jurusan Sastra Inggris dibuka dengan jumlah mahasiswa 50 orang. Tahun 1967 Fakultas Sastra dipindahkan ke gedung Pancasila (sekarang Gedung Pendopo USU), luasnya sudah memenuhi syarat tetapi ada kendala mengenai air dan lampu yang tidak memadai. Pada tahun 1968 di buka jurusan Sejarah tetapi belum ada kegiatan karena mahasiswanya belum ada dan pada tahun 1970 adalah tahun pertama menerima mahasiswa. Tahun 1972 Fakultas Sastra memperoleh tiga unit Gedung permanen. Tahun 1979 dibuka Jurusan Sastra Daerah untuk Sastra Batak. Pada tahun ini juga dibuka Jurusan Etnomusikologi satu-satunya yang ada di Indonesia sampai tahun 1989, Selanjutnya pada tahun 1980 dibuka Program Studi S1 Bahasa Arab, Jurusan Antropologi, dan Jurusan Ilmu Perpustakaan, namun pada tahun 1983 Jurusan Ilmu Perpustakaan ditutup dan sebagai gantinya dibuka Program Studi D3 Perpustakaan. Sedangkan Jurusan Antropologi dipindahkan ke FISIP USU sesuai dengan SK Rektor USU No. 163/PTO5/SK/0/86 tanggal 4 Mei 1986. Perkembangan Fakultas Sastra USU telah banyak diketahui oleh masyarakat kota maupun sampai ke daerah yang berwawasan bahasa dan sastra secara keseluruhan di lingkungan daerah Sumatera Utara sampai ke Selatan.
+            Pada tanggal 30 Januari 2010 dalam rapat Dewan Pertimbangan Fakultas (DPF) yang diketuai oleh Prof. Syaifuddin, MA, Ph.D dan beranggotakan 25 orang telah menghasilkan keputusan untuk mengubah nama Fakultas Sastra menjadi Fakultas Ilmu Budaya, dan hasil Rapat Dewan Pertimbangan Fakultas (DPF) tersebut kemudian diusulkan kepada Rektor Universitas Sumatera Utara.
+            Pengusulan nama ini kemudian disetujui dan diterbitkan Surat Keputusan perubahan namanya oleh Rektor USU (Prof. Dr. dr. Syahril Pasaribu, DTMH, M.Sc (CTM), Sp.A(K) pada tanggal 5 April 2011 dengan SK No. 981/H5.1.R/SK/PRS/2011 untuk selanjutnya nama Fakultas Sastra USU menjadi Fakultas Ilmu Budaya.
+        </fns:latarBelakang>
+        <fns:visi>Pada tahun 2020, Fakultas Ilmu Budaya Universitas Sumatera Utara maju sebagai pusat pendidikan, penelitian dan kegiatan pengabdian pada masyarakat dalam bidang ilmu kemanusiaan yang diunggulkan dan menguasai teknologi informasi.</fns:visi>
+        <fns:misi>1. Melaksanakan Tri Dharma Perguruan Tinggi yang berorientasi pada manajemen organisasi modern.</fns:misi>
+        <fns:misi>2. Meningkatkan dan memberdayakan dukungan dana dan peraturan secara optimal.</fns:misi>
+        <fns:misi>3. Meningkatkan sumber daya manusia dalam penguasaan dan pemanfaatan teknologi informasi dan komunikasi dalam bidang pendidikan, penelitian dan pengabdian pada masyarakat.</fns:misi>
+        <fns:misi>4. Meningkatkan peran aktif stakeholders untuk kepentingan Fakultas Ilmu Budaya sebagai lembaga pendidikan.</fns:misi>
+        <fns:misi>5. Meningkatkan kreatifitas dan kualitas pendidikan yang berorientasi pada kepentingan publik.</fns:misi>
+        <fns:pstudi>Program Studi Sastra Indonesia</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Daerah untuk Sastra Melayu</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Daerah untuk Sastra Batak</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Arab</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Inggris</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Sejarah</fns:pstudi>
+        <fns:pstudi>Program Studi Etnomusikologi</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Jepang</fns:pstudi>
+        <fns:pstudi>Program Studi Sastra Cina</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Perpustakaan</fns:pstudi>
+        <fns:alamat>Jl. Universitas No. 19, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FIB -->
+
+    <!-- Pertanian -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/pertanian">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Pertanian</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Pertanian.jpg" />
+        <fns:latarBelakang>
+            Yayasan Universitas Sumatera Utara mendirikan Fakultas Pertanian pada tanggal 16 Nopember 1956 dan menyerahkannya kepada Pemerintah RI tanggal 25 Agustus 1958 sehingga resmi menjadi Fakultas Pertanian USU Negeri berdasarkan SK Menteri P dan K No. 8691/S dan menjadi fakultas ke-3 tertua di USU serta Fakultas Pertanian tertua di Sumatera.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi lembaga pendidikan tinggi  pertanian unggulan dalam pengembangan ilmu pengetahuan, teknologi dan sumber daya manusia dengan kompetensi utama perkebunan.</fns:visi>
+        <fns:misi>1. Menyiapkan mahasiswa menjadi anggota masyarakat akademik dan/atau profesional dengan kemampuan menerapkan, mengembangkan dan memperkaya ilmu pengetahuan dan teknologi pertanian, khususya perkebunan.</fns:misi>
+        <fns:misi>2. Mengembangkan dan menyebarluaskan ilmu pengetahuan dan pengembangan penerapannya untuk menghasilkan produk/jasa pendidikan, penelitian dan pengabdian masyarakat bermutu tinggi yang dibutuhkan dalam meningkatkan kemakmuran masyarakat.</fns:misi>
+        <fns:misi>3. Memperluas partisipasi dalam pembelajaran untuk memenuhi kebutuhan nasional dalam meningkatkan kemakmuran masyarakat.</fns:misi>
+        <fns:pstudi>Program Studi Agroekoteknologi</fns:pstudi>
+        <fns:pstudi>Program Studi Agribisnis</fns:pstudi>
+        <fns:pstudi>Program Studi Peternakan</fns:pstudi>
+        <fns:pstudi>Program Studi Keteknikan Pertanian</fns:pstudi>
+        <fns:pstudi>Program Studi Manajemen Sumber Daya Perairan</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu dan Teknologi Pangan</fns:pstudi>
+        <fns:alamat>Jl. Prof. A.Sofyan No.3, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- Pertanian -->
+
+
+    <!-- Hukum -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/hukum">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Hukum</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Hukum.jpg" />
+        <fns:latarBelakang>
+            Pada bulan Januari 1954, Yayasan Universitas Sumatera Utara mendirikan Fakultas Hukum dan Pengetahuan Masyarakat dibawah panji-panji Yayasan Universitas Sumatera Utara. Fakultas Hukum dan Pengetahuan Masyarakat diresmikan pada tanggal 12 Januari 1954.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi Fakultas Hukum terkemuka, yang menghasilkan lulusan berkualitas, bermoral, profesional dan memiliki keunggulan kompetitif baik ditingkat nasional maupun internasional.</fns:visi>
+        <fns:misi>1. Menyelenggarakan pendidikan dan penelitian hukum berbasis kompetensi yang menekankan pada pemecahan masalah (problem solving) sesuai dengan trend perkembangan hukum nasional dan internasional.</fns:misi>
+        <fns:misi>2. Meningkatkan mutu proses belajar mengajar melalui pembangunan prasarana, sarana, fasilitas pendidikan, serta pembinaan karier dan peningkatan kesejahteraan tenaga pendidik dan tenaga kependidikan.</fns:misi>
+        <fns:misi>3. Melibatkan tenaga pendidik dan mahasiswa dalam kegiatan ilmiah yang terkait dengan pemecahan masalah (problem solutions) sesuai dengan pengembangan hukum ditingkat nasional dan internasional.</fns:misi>
+        <fns:pstudi>Program Studi Ilmu Hukum</fns:pstudi>
+        <fns:alamat>Jl. Universitas No. 4 Kampus USU, Medan  20155</fns:alamat>
+    </owl:Class>
+    <!-- Hukum -->
+
+
+    <!-- Teknik -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/teknik">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Teknik</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Teknik.jpg" />
+        <fns:latarBelakang>
+            Pada tanggal 1 September 1959 dijadikan awal berdirinya Fakultas Teknik USU setelah keluarnya Surat Keputusan Menteri Muda Pendidikan, Pengajaran dan Kebudayaan Republik Indonesia No. 83303/S tertanggal 26 Agustus 1959 tentang persiapan berdirinya Fakultas Teknik di Medan yang bernaung di bawah panji-panji Universitas Sumatera Utara terhitung mulai 1 September 1959 sebagai fakultas yang ke-4.
+            Pada tahap awal berdirinya, Fakul­tas Teknik hanya mengasuh satu juru­san, yaitu Jurusan Teknik Sipil.  Dengan meningkatnya kebutuhan sar­jana teknik di berbagai bidang  sesuai dengan tuntu­tan pembangunan, maka Fakultas Teknik USU selanjutnya membuka jurusan-jurusan baru; Teknik Mesin (1962), Teknik Elektro dan Teknik Industri (1965), Teknik Kimia (1979), Teknik Arsitektur (1991), dan Teknik Lingkungan (2012).
+            Menyadari akan kebutuhan sarjana teknik terus meningkat, baik dalam jumlah maupun kualitasnya, maka pada tahun 1993 Fakultas Teknik USU membuka Program Pendidikan Sarjana Ektensi (S1) dengan jurusan/program studi; Teknik Sipil, Teknik Industri, Teknik Mesin, Teknik Kimia dan Teknik Elektro.
+        </fns:latarBelakang>
+        <fns:visi>FT USU menjadi institusi pendidikan tinggi keteknikan dengan kualitas berkelas dunia (FT USU toward  world-class qualities of an engineering higher education institution)</fns:visi>
+        <fns:misi>1. Menyiapkan mahasiswa dan lulusan Fakultas Teknik USU yang bermartabat dan berkualitas sehingga mampu bersaing ditingkat nasional maupun internasional.</fns:misi>
+        <fns:misi>2. Menjadikan kampus Fakultas Teknik USU yang bersih, nyaman, dan kondusif untuk terciptanya produk unggulan dan inovatif  dari mahasiswa dan tenaga pendidik.</fns:misi>
+        <fns:misi>3. Menjadikan kampus Fakultas Teknik USU sebagai pusat kerjasama penelitian dan pengembangan dengan pihak industri dan pemerintah, dalam dan luar negeri.</fns:misi>
+        <fns:pstudi>Program Studi Teknik Industri</fns:pstudi>
+        <fns:pstudi>Program Studi Teknik Sipil</fns:pstudi>
+        <fns:pstudi>Program Studi Teknik Kimia</fns:pstudi>
+        <fns:pstudi>Program Studi Arsitektur</fns:pstudi>
+        <fns:pstudi>Program Studi Teknik Mesin</fns:pstudi>
+        <fns:pstudi>Program Studi Teknik Elektro</fns:pstudi>
+        <fns:pstudi>Program Studi Teknik Lingkungan</fns:pstudi>
+        <fns:alamat>Jl. Almamater, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- Teknik -->
+
+
+    <!-- FEB -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/feb">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Ekonomi dan Bisnis</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_EkonomidanBisnis.jpg" />
+        <fns:latarBelakang>
+            Fakultas Ekonomi USU pertama kali didirikan oleh Yayasan USU berlokasi di Kutaraja (sekarang Kota Banda Aceh) pada tahun 1959. Berhubung Fakultas Ekonomi USU yang berkedudukan di Banda Aceh menjadi bagian dari Universitas Syiah Kuala, pada tahun 1961 USU membuka kembali Fakultas Ekonomi di Medan. Penetapan dilakukan dengan Surat Keputusan Menteri Pendidikan Tinggi RI No. 64/1961 tanggal 24 November 1961 yang berlaku surut terhitung mulai 1 Oktober 1961. Berdasarkan surat keputusan tersebut, tanggal 24 Nopember diperingati sebagai hari lahir atau Dies Natalis Fakultas Ekonomi USU. 
+            Pada tahun 1975 AAN (Akademi Administrasi Niaga) Medan dilebur ke fakultas Ekonomi USU menjadi PAAP (Pendidikan Ahli Administrasi dan Perusahaan). PAAP kemudian menjadi program diploma tiga (DIII) dengan tiga program studi yakni DIII Keuangan, DIII Akuntansi, dan DIII Kesekretariatan.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi Fakultas Ekonomi yang dikenal unggul dan mampu memenuhi kebutuhan pasar dalam persaingan global.</fns:visi>
+        <fns:misi>1. Menghasilkan lulusan yang mempunyai karakter dan kompetensi dalam bidang ilmu ekonomi, manajemen dan akuntansi yang berorientasi pasar.</fns:misi>
+        <fns:misi>2. Meningkatkan kualitas proses belajar mengajar dengan pemberdayaan dan peningkatan kualifikasi dan kualitas tenaga pendidik.</fns:misi>
+        <fns:misi>3. Mengembangkan dan meningkatkan pelaksanaan dharma penelitian dan pengabdian sebagai upaya meningkatkan mutu keilmuan dan sumber pendanaan fakultas dalam status PT BHMN.</fns:misi>
+        <fns:misi>4. Senantiasa berusaha meningkatkan pelayanan kepada mahasiswa selaku pelanggan (customer) dan stakeholders lainnya.</fns:misi>
+        <fns:misi>5. Meningkatkan jaringan dan kerjasama dengan institusi swasta dan pemerintah serta organisasi profesional dan lembaga lain terkait yang bertaraf nasional dan internasional.</fns:misi>
+        <fns:pstudi>Program Studi Akuntansi</fns:pstudi>
+        <fns:pstudi>Program Studi Ekonomi Pembangunan</fns:pstudi>
+        <fns:pstudi>Program Studi Manajemen</fns:pstudi>
+        <fns:alamat>Jl. Prof. T.M. Hanafiah, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FEB -->
+
+
+    <!-- FKG -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/fkg">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Kedokteran Gigi</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_KedokteranGigi.jpg" />
+        <fns:latarBelakang>
+            Fakultas Kedokteran Gigi Universitas Sumatera Utara (FKG USU) berdiri pada tanggal 3 Nopember 1961. Fakultas Kedokteran Gigi USU mempunyai sepuluh departemen yaitu Departemen Ortodonti, Prostodonsia, llmu Bedah Mulut, llmu Konservasi Gigi, Periodonsia, llmu Penyakit Mulut, llmu Kesehatan Gigi Anak, Biologi Oral, llmu Material dan Teknologi, llmu Kedokteran Gigi Pencegahan/Kesehatan Gigi Masyarakat dan satu Unit yaitu Unit Radiologi Dental. Disamping itu untuk melaksanakan berbagai kegiatan dibentuk beberapa Unit Pelaksana Teknis (UPT). Praktek kedokteran gigi umum mencakup sebagian besar pemeriksaan diagnosa, perencanaan perawatan dan pencegahan penyakit. Perawatan dapat mencakup pencabutan saraf gigi,  pencabutan gigi, penggantian gigi yang tercabut.
+        </fns:latarBelakang>
+        <fns:visi>Fakultas Kedokteran Gigi Universitas Sumatera Utara sebagai Fakultas Kedokteran Gigi unggulan tingkat Nasional dan Regional dalam menghasilkan lulusan yang memiliki daya saing global dan berwawasan enterpreneurship.</fns:visi>
+        <fns:misi>1. Menyelenggarakan pendidikan bidang kedokteran gigi yang bertumpu pada aktifitas belajar mahasiswa yang berorientasi pada perkembangan IPTEK dan kebutuhan masyarakat dalam bidang kesehatan gigi dan mulut untuk menghasilkan Sarjana Kedokteran Gigi dan Dokter Gigi yang berpengetahuan dan berketerampilan, bersikap demokratis, penuh tanggung jawab dan berbudi pekerti yang luhur sesuai dengan etika profesi kedokteran gigi.</fns:misi>
+        <fns:misi>2. Melaksanakan penelitian yang berorientasi pada pengembagan IPTEK untuk dapat menyelesaikan masalah kesehatan gigi dan mulut secara ilmiah yang merupakan landasan utama untuk menumbuhkan dan membina kemampuan menguasai metode penyelesaian masalah, melalui kemampuan berpikir kritis, penalaran ilmiah, berpikir alternatif dan kemampuan pengambilan keputusan secara benar.</fns:misi>
+        <fns:misi>3. Menyelenggarakan pelayanan kesehatan gigi dan mulut kepada masyarakat melalui Pengalaman Belajar Klinik (PBK) dan Pengalaman Belajar Lapangan (PBL) dengan memanfaatkan kemajuan IPTEK secara tepat guna untuk meningkatkan kesehatan gigi dan mulut masyarakat.</fns:misi>
+        <fns:pstudi>Program Studi Pendidikan Dokter Gigi</fns:pstudi>
+        <fns:alamat>Jalan Alumni No. 2, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FKG -->
+
+
+    <!-- FMIPA -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/fmipa">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Matematika dan Ilmu Pengetahuan Alam</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/FMIPA.jpg" />
+        <fns:latarBelakang>
+            Pendirian Fakultas Matematika dan Ilmu Pengetahuan Alam ( FMIPA) mulai dirintis sejak tahun 1959 melalui berbagai pembahasan dalam sidang pimpinan USU yang ketika itu disebut Rapat Presidium dan Asesor dengan Nama Fakultas Ilmu Pasti dan Ilmu Alam (FIPIA). Rencana pendirian FIPIA USU pernah terhenti karena adanya pergolakan di USU, namun akhirnya mendapat persetujuan dari Menteri dengan Surat Keputusan Nomor 9638/Sekret/BUP/1965. Peresmian berdirinya FIPIA USU ditandai dengan dibukanya tiga jurusan yaitu : Jurusan Matematika, Fisika dan Kimia. Pada tahun 1969, FIPIA USU membuka Jurusan Farmasi pada tahun 1969 dan pada tahun 1981 membuka Program Diploma-3 Pendidikan Ahli Kimia Analis (PAKA) melalui Surat Keputusan Rektor USU Nomor : 3491/PT05/SK/C/1981. Pada tahun 1974 FIPIA USU berubah nama menjadi Fakultas Ilmu Pasti dan Ilmu Pengetahuan Alam USU, namun beberapa tahun kemudian yaitu pada tahun 1982 kembali merubah nama dengan Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) USU. Pada tahun 1985 FMIPA USU dipercayakan Pemerintah Republik Indonesia untuk menyelenggarakan Program Diploma-3 Kependidikan meliputi Program Studi : Matematika, Fisika, Kimia dan Biologi. Program ini dimaksudkan untuk pengadaan guru-guru dalam bidang eksakta akan ditempatkan di daerah dan seluruh mahasiswanya memperoleh beasiswa. Peringatan Dies Natalis FMIPA diperingati setiap tahunnya pada tanggal 25 Agustus yaitu pada saat pelantikan pertama sekali pimpinan FIPIA. Jurusan Farmasi berubah status menjadi Fakultas Farmasi berdasarkan SK Rektor Nomor 1050/J05/SK/KP/2006 tanggal 8 Agustus 2006.
+        </fns:latarBelakang>
+        <fns:visi>Pada tahun 2020 Fakultas MIPA USU akan menjadi fakultas sains yang terkemuka di Asia melalui pengembangan sumber daya manusia yang berorientasi pada Ilmu, teknologi dan industri serta memiliki sikap dan perilaku professional.</fns:visi>
+        <fns:misi>1. Mempersiapkan sumber daya manusia bermanfaat berkualitas sarjana sains melalui penyelenggaraan pendidikan, penelitian dan pengabdian pada masyarakat.</fns:misi>
+        <fns:misi>2. Mempersiapkan sarjana sains yang professional dan bertanggung jawab secara etik dan stratejik</fns:misi>
+        <fns:misi>3. Mampu melihat kesempatan untuk kepentingan masyarakat, teknologi dan industri melalui peningkatan ilmu pengetahuan.</fns:misi>
+        <fns:misi>3. Mampu mengamalkan ilmu yang dimiliki demi bangsa dan negara.</fns:misi>
+        <fns:pstudi>Program Studi Fisika</fns:pstudi>
+        <fns:pstudi>Program Studi Biologi</fns:pstudi>
+        <fns:pstudi>Program Studi Kimia</fns:pstudi>
+        <fns:pstudi>Program Studi Matematika</fns:pstudi>
+        <fns:alamat>Jl. Bioteknologi No.1, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FMIPA -->
+
+
+    <!-- FISIP -->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/fisip">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Ilmu Sosial dan Ilmu Politik</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_ISIP.jpg" />
+        <fns:latarBelakang>
+            Fakultas Ilmu Sosial dan Ilmu Politik Universitas Sumatera Utara (FISIP USU) berdir isejak tahun 1982 berdasarkan Surat Keputusan Presiden Republik Indonesia Nomor 36 Tahun 1982 dan menjadi fakultas yang ke-9 (kesembilan) di lingkungan Universitas Sumatera Utara. FISIP USU merupakan bagian yang tidak terpisahkan dalam aktivitas mencerdaskan kehidupan bangsa, menguatkan suasana demokrasi, dan kesejahteraan masyarakat. Keberadaan FISIP USU di Provinsi Sumatera Utara memberikan sumbangan pemikiran bagi kemajuan daerah yang dikenal sangat multikultural. Melalui Tri Dharma Perguruan Tinggi sebagai tugasu tama, FISIP USU telah melakukan kegiatan pendidikan, penelitian, dan pengabdian masyarakat khususnya kepada masyarakat di Provinsi Sumatera Utara dan provinsi tetangganya. Meskipun tidak sedikit layanan pendidikan yang diberikan FISIP USU dirasakan oleh putra-putri terbaik dari seluruh provinsi di Indonesia. Kegiatan Tri Dharma Perguruan Tinggi menjadi ciri khas FISIP USU dalam merancang program dan produk berupa hasil penelitian yang dipublikasikan, model pembelajaran yang diterapkan, dan pengabdian masyarakat yang diadaptasikan. FISIP USU menyebutnya sebagai Tri Dharma untukNegeri yang memberikan kontribusi pemantapan demokrasi dan kesejahteraan rakyat.
+        </fns:latarBelakang>
+        <fns:visi>Sejalan dengan perkembangan dan dinamika masyarakat Indonesia, khususnya yang terkait dengan otonomi daerah, demokratisasi, globalisasi dan lain sebagainya, FISIP-USU telah memiliki kontribusi dalam kegiatan penelitian, publikasi, dan pengabdian masyarakat yang aplikatif. Oleh karena itu, agar program studi lebih fokus pada kegiatan-kegiatan yang akan dilakukan selama kurun waktu 2016–2021 dan untuk mensinergikan dengan program kerja Universitas Sumatera Utara, maka ditetapkan VISI FISIP USU 2016-2021. “Menjadi Fakultas yang Memiliki Keunggulan Akademik dan Mampu Bersaing dalam Pengembangan Ilmu dan Riset Terapan Kebijakan Publik Bidang Sosial dan Politik Pada Tataran Global Tahun 2021”. Visi FISIP USU diharapkan dapat menjadi motivasi yang tinggi bagi seluruh civitas akademika untuk secara bersama-sama membangun FISIP khususnya dan USU pada umumnya melalui pelaksanaan Tri Dharma Perguruan Tinggi, yaitu Pendidikan, Penelitian, dan Pengabdian pada Masyarakat sehingga FISIP USU menjadi fakultas yang unggul di bidang pendidikan dan riset terapan kebijakan publik bidang sosial dan politik. Melalui kegiatan Tri Dharma Perguruan Tinggi tersebut diharapkan FISIP USU tidak hanya unggul dalam bidang pendidikan dan riset sosial politik, tetapi juga berkontribusi bagi pembangunan masyarakat yang berkualitas dan berkarakter.</fns:visi>
+        <fns:misi>Untuk mencapai Visi FISIP USU, maka disusunlah misi yaitu kegiatan yang harus dilaksanakan organisasi. Melalui misi yang jelas, diharapkan seluruh anggota organisasi dan pihak-pihak yang berkepentingan mengenal organisasi dan mengetahui peran serta dan hasil-hasil yang akan diperoleh organisasi di masa yang akan datang.</fns:misi>
+        <fns:pstudi>Program Studi Ilmu Administrasi Negara</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Komunikasi</fns:pstudi>
+        <fns:pstudi>Program Studi Sosiologi</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Kesejahteraan Sosial</fns:pstudi>
+        <fns:pstudi>Program Studi Antropologi Sosial</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Politik</fns:pstudi>
+        <fns:pstudi>Program Studi Ilmu Administrasi Niaga/Bisnis</fns:pstudi>
+        <fns:alamat>Jl. Dr. A. Sofyan Nomor 1, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- FISIP -->
+
+
+    <!-- FKM-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/fkm">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Kesehatan Masyarakat</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_KesehatanMasyarakat.jpg" />
+        <fns:latarBelakang>
+            Program Studi S1 Ilmu Kesehatan Masyarakat diresmikan pada tanggal 31 Juli 1985 tapi masih berada di bawah asuhan Fakultas Kedokteran USU (PSKM - USU). Kemudian berdasarkan keputusan Menteri Pendidikan dan Kebudayaan Republik Indonesia No. 0376/0/1993 tanggal 21 Oktober 1993 Program Studi S1 Ilmu Kesehatan Masyarakat yang selama ini masih di bawah asuhan Fakultas Kedokteran USU Medan telah berubah menjadi Fakultas Kesehatan Masyarakat Universitas Sumatera Utara yang diresmikan oleh Menteri Pendidikan dan Kebudayaan pada tanggal 25 Januari 1994 sebagai fakultas yang ke-10 di USU.
+        </fns:latarBelakang>
+        <fns:visi>Untuk pengembangan tenaga kesehatan masyarakat.</fns:visi>
+        <fns:misi>1. Menyelenggarakan dan mengembangkan pendidikan untuk menghasilkan Sarjana Kesehatan Masyarakat, Magister Kesehatan, dan Doktor sesuai kompetensi dalam bidang kesehatan masyarakat.</fns:misi>
+        <fns:misi>2. Menyelenggarakan dan mengembangkan penelitian ilmiah yang dapat memberi kontribusi untuk pengembangan ilmu kesehatan masyarakat, tercapainya kompetensi lulusan dan pemecahan masalah kesehatan masyarakat.</fns:misi>
+        <fns:misi>3. Menyelenggarakan dan mengembangkan pengabdian masyarakat yang dapat memberi kontribusi untuk pengembangan seni, ilmu, teknologi kesehatan masyarakat, kompetensi lulusan dan pemecahan masalah kesehatan masyarakat.</fns:misi>
+        <fns:pstudi>Program Studi Kesehatan Masyarakat</fns:pstudi>
+        <fns:alamat>-</fns:alamat>
+    </owl:Class>
+    <!-- FKM -->
+
+
+    <!-- Farmasi-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/farmasi">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Farmasi</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Farmasi.jpg" />
+        <fns:latarBelakang>
+            Jurusan Farmasi di lingkungan USU dibuka pada tahun 1969 di bawah naungan Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) USU berdasarkan kenyataan bahwa sangat dibutuhkannya tenaga Apoteker di Sumatera, ketika itu untuk wilayah Sumatera hanya ada satu Jurusan Farmasi yaitu di Universitas Andalas Padang, Sumatera Barat. Setelah dibukanya Program Studi Sarjana (S1) Farmasi pada tahun 1969, kemudian Jurusan Farmasi membuka beberapa Program Studi sebagai berikut:
+            Tahun 1969 dibuka Program Pendidikan Profesi Apoteker (sejalan dengan Program Studi Sarjana Farmasi ), kemudian pada tahun 1999 ditetapkan bahwa Program Pendidikan Profesi Apoteker telah terpisah dari Program Studi Sarjana Farmasi (S1);
+            Tahun 1994 dibuka Program Studi Diploma-3 Analis Farmasi;
+            Tahun 2000 dibuka Program Studi Magister (S2) Ilmu Farmasi;
+            Tahun 2002 dibuka Program Ekstensi Sarjana Farmasi;
+            Tahun 2009 dibuka Program Studi Doktor (S3) Ilmu Farmasi.
+            Setelah USU menjadi Perguruan Tinggi Badan Hukum Milik Negara (BHMN) berdasarkan Peraturan Pemerintah No. 56/2003, tanggal 11 November 2003, maka di seluruh USU terjadi perubahan istilah dari Jurusan menjadi Departemen. Selanjutnya pada hari Selasa, tanggal 08 Agustus 2006, Rektor USU menerbitkan Surat Keputusan Nornor: 1050/J05/SK/KP/2006, tentang Pembukaan Fakultas Farmasi pada Universitas Sumatera Utara. Oleh karena itu, terhitung mulai tanggal tersebut Departemen Farmasi FMIPA USU telah berdiri menjadi Fakultas Farmasi Universitas Sumatera Utara (Fakultas yang ke-11 di lingkungan Universitas Sumatera Utara) dan terpisah dari FMIPA USU.
+            Pada Tahun 2007, sesuai dengan Surat Keputusan Direktur Jenderal Pendidikan Tinggi Departemen Pendidikan Nasional Republik Indonesia Nomor: 163/DIKTI/KEP/2007, tanggal 29 November 2007, tentang Penataan dan Kodifikasi Program Studi pada Perguruan Tinggi, terjadi penyesuaian nama-nama Program Studi di lingkungan Fakultas Farmasi USU yang mengacu kepada lampiran surat keputusan Ditjen Dikti tersebut, yaitu menjadi:
+            Program Studi Sarjana Farmasi (S-1), Program Studi Pendidikan Profesi Apoteker (P3A), Program Studi Diploma-3 Analis Farmasi dan Makanan (D-3), Program Ekstensi Sarjana Farmasi, Program Studi Magister Farmasi (S-2), Program Studi Doktor Ilmu Farmasi (S-3)
+        </fns:latarBelakang>
+        <fns:visi>Menjadi salah satu Institusi Pendidikan Tinggi Farmasi unggulan di Indonesia pada tahun 2020.</fns:visi>
+        <fns:misi>1. Mengembangkan sumberdaya manusia yang unggul di bidang farmasi.</fns:misi>
+        <fns:misi>2. Mengembangkan dan menerapkan ilmu kefarmasian yang lebih bermakna di masyarakat.</fns:misi>
+        <fns:pstudi>Program Studi Farmasi</fns:pstudi>
+        <fns:alamat>Jl. Tri Dharma No. 5, Pintu 4 Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- Farmasi-->
+
+
+
+    <!-- Psikologi-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/psikologi">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Psikologi</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Psikologi.jpg" />
+        <fns:latarBelakang>
+            Program Studi (PS) Psikologi USU didirikan pada tahun 1999 dan mulai menerima mahasiswa angkatan pertamanya untuk mengikuti program pendidikan Sarjana Strata 1 pada tahun ajar 1999/2000. Sistem penerimaan mahasiswa baru dilakukan melalui jalur Ujian Masuk Perguruan Tinggi Negeri (UMPTN) yang kemudian menjadi jalur UMB (Ujian Masuk Bersama), dan jalur PMP (Penelusuran Minat dan Prestasi). Dalam beberapa tahun terakhir ini seleksi penerimaan ditambah lagi melalui jalur SNMPTN (Seleksi Nasional Masuk Perguruan Tinggi Negeri) dan SPMPRM (Seleksi Penerimaan Mahasiswa Program Reguler Mandiri).Pada tahun ajar 2003/2004 PS Psikologi USU meluluskan sarjana psikologinya yang pertama. Dengan mulai dihasilkannya lulusan dari PS Psikologi, maka PS Psikologi mengajukan permohonan untuk menjalani proses akreditasi oleh BAN-PT dan sebagai hasilnya diperoleh Peringkat (Nilai) Akreditasi B. Tanggal 16 Juli 2007 Program Studi Psikologi USU yang sebelumnya bernaung di bawah Fakultas Kedokteran USU secara resmi berdiri sendiri sebagai Fakultas Psikologi USU.
+            Pada tahun 2010 Program Studi Sarjana Psikologi kembali mengajukan permohonan untuk menjalani proses akreditasi untuk kali kedua kepada Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) dan berdasarkan SK BAN-PT Nomor 032/BAN-PT/Ak-XIII/S1/XII/2010. Program Studi Sarjana Psikologi memperoleh Peringkat (Nilai) B.
+            Kemudian Sejak tahun 2015, sasaran Program Studi S1 Psikologi adalah “Menjadi Fakultas dengan akreditasi tertinggi dan merintis pengakuan Internasional”, yang kemudian dikelompokkan dalam tiga pilar. Dalam Pilar Pendidikan dan Pengajaran dilakukan penyesuaian Kurikulum berdasarkan standar KKNI dengan keunggulan akademik di bidang Kearifan Lokal dan Agroindustri, yang dilaksanakan dalam atmosfer akademik yang kondusif, serta mengembangkan perilaku cendekiawan dalam Tata Nilai BINTANG (Bertakwa kepada Tuhan Yang Maha Esa dalam Bingkai Ke-bhineka-an, Inovatif yang Berintegritas serta Tangguh dan Arif), sehingga menghasilkan Alumni yang berdaya saing tinggi. Dalam Pilar Penelitian dilakukan upaya internalisasi budaya meneliti mengikuti Roadmap Penelitian berbasis Kearifan Lokal dan Agroindustri yang akan digunakan untuk meningkatkan kualitas bahan ajar serta mengadakan kerjasama penelitian yang bermartabat. Dalam Pilar Pengabdian pada Masyarakat dilakukan peningkatan budaya pengabdian kepada masyarakat secara empatik berdasarkan Roadmap Penelitian berbasis Kearifan Lokal dan Agroindustri, serta mengadakan Kolaborasi Academy-Business-Community-Government (ABCG) dan kerjasama kelembagaan untuk program Pemberdayaan Desa Mitra dan Penanggulangan Bencana.
+            Upaya penjaminan mutu penyelenggaraan kegiatan pendidikan psikologi di USU telah dimulai dengan menerbitkan panduan penyelenggaraan pendidikan di program studi, panduan penyusunan skripsi dan sejumlah panduan/rujukan lainnya. Kegiatan penjaminan mutu tidak hanya memberikan kredibilitas institusi tetapi juga dapat memelihara suasana akademik. Untuk menjamin terselenggaranya pengelolaan mutu, berbagai manual mutu, manual prosedur, instruksi kerja, dan dokumen-dokumen penunjang dikembangkan secara terus menerus. Kegiatan penjaminan mutu menjadi komitmen semua individu yang berada dalam sistem organisasi. Komunikasi yang efektif antar individu perlu terjalin dalam proses pengelolaan mutu. Pembuatan Evaluasi Diri dan Rencana Kerja secara berkala setiap tahun merupakan sarana interaksi yang efektif antar unsur organisasi. Evaluasi eksternal Program Pendidikan Strata 1 yang telah dilaksanakan oleh Badan Akreditasi Nasional (BAN) dijadikan sebagai titik awal dalam pengelolaan mutu. Target akreditasi penyelenggaran Program Strata 2 juga merupakan pemicu dalam upaya penjaminan mutu. Secara jangka panjang harus dimiliki pula target pencapaian peringkat dari Badan Akreditasi regional/internasional. Ke depan, pekerjaan rumah yang ahrus diselesaikan Program Studi sarjana Psikologi adalah mempersiapkanlulusan yang bias bersaing dengan dunia global terutama dengan diberlakukannya Masyarakat Ekonomi ASEAN dan standar kualifikasi internasional (International Quality Framework) yang antara lain konsekuensinya adalah penguasaan teknologi informasi dan teknoogi profesi, penguasaan bahasa asing dan kemampuan menjalin jaringan.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi Fakultas Psikologi dengan keunggulan akademik berbasis kearifanlokal dan agroindustri yang mampu bersaing dalam tataran dunia global</fns:visi>
+        <fns:misi>1. Menyelenggarakan pendidikan psikologi yang menjadi wadah bagi pengembangan karakter dan profesionalisme sumber daya manusia berlandaskan kajian ilmiah, moral, dan hati nurani</fns:misi>
+        <fns:misi>2. Menghasilkan ilmuwan psikologi dan psikolog yang mampu menjadi pelaku perubahan dalam pemberdayaan kearifan lokal dan pengembangan agroindustri berdasarkan moral agama, budaya, kode etik psikologi, serta memiliki daya saing pada tataran nasional maupun internasional</fns:misi>
+        <fns:misi>3. Melaksanakan pendidikan, penelitian, dan pengabdian masyarakat di bidang psikologi dalam rangka peningkatan kualitasa kademik yang bermanfaat bagi perubahan kehidupan masyarakat.</fns:misi>
+        <fns:pstudi>Program Studi Psikologi</fns:pstudi>
+        <fns:alamat>Jln. Dr. T. Mansyur No. 7, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- Psikologi-->
+
+
+    <!-- perawat-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/keperawatan">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Keperawatan</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Keperawatan.jpg" />
+        <fns:latarBelakang>
+            Pembukaan Program Studi Ilmu Keperawatan (PSIK) Fakultas Kedokteran Universitas Sumatera Utara diawali dari hasil kesepakatan Consortium Health Sciences (CHS) dan para Dekan Fakultas Kedokteran PTN seluruh Indonesia. Fakultas Kedokteran USU termasuk salah satu yang dipercaya untuk menyelenggarakan Program Studi Ilmu Keperawatan. Berdasarkan surat usulan Dekan No. 1471/PT05.H4/FK/C.91 diterbitkanlah Surat Keputusan Rektor No. 1214/PT05.H/SK/C.1991 tentang Pembentukan Panitia Persiapan Pembukaan Program PSIK FK USU. Setelah melalui beberapa rangkaian kegiatan yang melibatkan CHS dan Kanwil Departemen Kesehatan Propinsi Sumatera Utara dibentuklah struktur pengelola PSIK FK USU berdasarkan SK Rektor No. 1328/PT.05.H/SK/C. 1994. Kemudian dibukalah PSIK pada tahun 1995. Hanya saja setelah berjalan dua semester penyelenggaraan PSIK dihentikan dengan mengacu kepada SK Direktorat Jenderal Pendidikan Tinggi No. 471/D/T/1995 karena belum memenuhi persyaratan. Pada saat itu memang FK USU belum memiliki tenaga pendidik yang berlatar belakang pendidikan Sarjana Keperawatan (S.Kp). Empat tahun setelah dihentikannya PSIK, Direktorat Jenderal Pendidikan Tinggi Departemen Pendidikan dan Kebudayaan melalui Surat Keputusan No. 116/DIKTI/Kep/1999 tertanggal 7 April 1999, memberi izin dibukanya kembali Program Studi Ilmu Keperawatan di FK USU. Sementara, sebelum mencapai status sebagai fakultas, USU menempatkan pengelolaan program studi ini di bawah tanggung jawab Fakultas Kedokteran USU. Dengan keluarnya Surat Keputusan Rektor USU Nomor 1221/H5.1.R/SK/SDM/2009 tanggal 23 Juni 2009 tentang Pembentukkan Fakultas Keperawatan Universitas Sumatera Utara maka berdasarkan SK Rektor tersebut Program Studi Ilmu Keperawatan Fakultas Kedokteran USU resmi menjadi Fakultas Keperawatan USU.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi pusat pengembangan dan pembelajaran ilmu keperawatan dengan keunggulan Holistic Care sehingga dapat meningkatkan daya saing pada tataran nasional, regional dan global pada tahun 2020.</fns:visi>
+        <fns:misi>1. Menyiapkan mahasiswa menjadi perawat yang memiliki kemampuan akademik dan/atau profesional dalam menerapkan, mengembangkan, dan memperkaya ilmu dan teknologi keperawatan sehingga memiliki daya saing.</fns:misi>
+        <fns:misi>2. Mengembangkan dan menyebarluaskan ilmu pengetahuan dan teknologi keperawatan dan penerapannya melalui proses pendidikan, penelitian dan pengabdian masyarakat yang bermutu.</fns:misi>
+        <fns:misi>3. Memperluas partisipasi dalam pembelajaran untuk memenuhi kebutuhan nasional dan memodernisasikan cara pembelajaran dengan memanfaatkan teknologi informasi dan komunikasi.</fns:misi>
+        <fns:pstudi>Program Studi Ilmu Keperawatan</fns:pstudi>
+        <fns:alamat>Jalan Prof. Maas No.03, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- perawat-->
+
+
+    <!-- fasilkom-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/fasilkomti">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Ilmu Komputer dan Teknologi Informasi</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/FASILKOMTI.jpg" />
+        <fns:latarBelakang>
+            Fakultas Ilmu Komputer dan Teknologi Informasi (Fasilkom-TI) Universitas Sumatera Utara dibentuk pada tanggal 6 September 2011 dengan diterbitkannya surat keputusan Rektor USU Nomor 2360/UN5.1.R/SK/PRS/2011. Pembentukan Fasilkom-TI USU mempunyai sejarah yang cukup panjang dan melibatkan banyak pihak. Jika dihitung sejak dikeluarkannya izin pembukaan program studi Ilmu Komputer oleh Direktorat Jenderal Pendidikan Tinggi Departemen Pendidikan dan Kebudayaan Republik Indonesia tanggal 22 November 2001 sampai terbentuknya Fakultas, waktu yang dibutuhkan adalah 10 tahun.
+            Program Studi yang pertama kali terbentuk adalah Program Studi S-1 Ilmu Komputer di bawah naungan FMIPA USU, Program Studi S-1 Ilmu Komputer berdiri sesuai dengan surat keputusan Ditjen Dikti Nomor 3551/D/T/2001 tanngal 22 November 2001 tentang izin penyelenggaraan Program Studi S-1 Ilmu Komputer.
+            Kemudian seiring berkembangnya keilmuan bidang komputasi maka dibentuklah Program Studi baru yaitu Program Studi S-1 Teknologi Informasi yang juga di bawah naungan FMIPA USU. Proposal pendirian Program Studi S-1 Teknologi Informasi diajukan ke Direktorat Jenderal Pendidikan Tinggi (Ditjen Dikti) Republik Indonesia pada awal tahun 2007 dengan tujuan untuk menambah satu program studi lagi yang berada di lingkungan disiplin komputasi, di samping program studi Ilmu Komputer S-1 yang telah didirikan sebelumnya pada tahun 2001. Namun karena pada masa itu nama program studi Teknologi Informasi belum dikenal dalam nomenklatur penamaan program studi yang ada di Indonesia, pendirian program studi ini disetujui dengan nama program studi Teknik Perangkat Lunak melalui Surat Keputusan Ditjen Dikti Nomor 1629/D/T/2007 tanggal 6 Juli 2007.
+            Pada akhir tahun 2007, Ditjen Dikti mengeluarkan surat keputusan tentang Penataan dan Kodifikasi Program Tinggi Nomor 163/KEP/DIKTI/2007 tertanggal 27 November 2007 yang antara lain mengatur penamaan program studi (S-1) bidang komputer sebagai berikut: Teknik Informatika S-1, Sistem Komputer S-1, dan Sistem Informasi S-1. Tetapi penamaan ini kemudian mengalami penyempurnaan dengan keluarnya Surat Edaran Ditjen Dikti Nomor 1030/D/T/2010. Dengan keluarnya Surat Edaran Ditjen Dikti tersebut, perguruan tinggi penyelenggara bidang komputer dan informatika diberi kesempatan untuk menata ulang penamaan program studi yang dikelolanya. Universitas Sumatera Utara dengan demikian menetapkan kembali nama untuk kedua program studinya menjadi Program Studi (S-1) Ilmu Komputer dan Program Studi (S-1) Teknologi Informasi.
+            Perjalanan dan perkembangan pendidikan keilmuan bidang komputasi di USU terus berlanjut, dengan tujuan untuk mengoptimalkan sumber daya dan memberikan jenjang pendidikan lanjut dari program S-1 maka pada tahun 2009 dibentuklah Program Studi Magister (S-2) Teknik Informatika, Program Studi tersebut pada tanggal 11 Mei 2009 dengan dikeluarkannya SK Ditjen Dikti Nomor 935/H5.1.R/SK/PRS/2009.
+        </fns:latarBelakang>
+        <fns:visi>Menjadi Penyelenggara Pendidikan Tinggi dan Riset dalam Bidang Ilmu Komputer dan Teknologi Informasi yang adaptif, kolaboratif dan kreatif, bertaraf Internasional.</fns:visi>
+        <fns:misi>1. Menghasilkan sarjana yang berkualitas dalam penelitian bidang Ilmu Komputer dan Teknologi Informasi yang mampu melakukan analisis, penerapan dan pengembangan dalam bidang ilmu komputer/teknik informatika, penambangan data dan jaringan komputer</fns:misi>
+        <fns:misi>2. Bersikap terbuka dan tanggap terhadap perkembangan dan perubahan kemajuan ilmu komputer, teknologi informasi dan komunikasi (TIK) bertaraf Internasional.</fns:misi>
+        <fns:pstudi>Program Studi Ilmu Komputer</fns:pstudi>
+        <fns:pstudi>Program Studi Teknologi Informasi</fns:pstudi>
+        <fns:alamat>Jl. Universitas No. 9A, Kampus USU, Medan 20155</fns:alamat>
+    </owl:Class>
+    <!-- fasilkom-->
+
+
+    <!-- kehutanan-->
+    <owl:Class rdf:about="https://www.usu.ac.id/id/fakultas/hutan">
+        <rdfs:subClassOf rdf:resource="https://www.usu.ac.id/id/fakultas/" />
+        <rdfs:label>Fakultas Kehutanan</rdfs:label>
+        <foaf:depiction rdf:resource="https://www.usu.ac.id/images/Fakultas/Fak_NewPhoto/Fakultas_Kehutanan.jpg" />
+        <fns:latarBelakang>
+            -
+        </fns:latarBelakang>
+        <fns:visi>Menjadi institusi pendidikan tinggi yang unggul dalam pengembangan ilmu pengetahuan, teknologi dan seni di bidang kehutanan yang mendukung pengelolaan dan pemanfaatan hutan yang berkelanjutan.</fns:visi>
+        <fns:misi>1. Menyelenggarakan pendidikan tinggi yang professional berbasiskan penelitian dan pengabdian pada masyarakat untuk menghasilkan sumberdaya manusia berakhlak luhur serta menguasai ilmu pengetahuan, teknologi dan seni dalam bidang kehutanan</fns:misi>
+        <fns:misi>2. Mengembangkan dan menyebarluaskan ilmu pengetahuan danteknologi kehutanan yang mampu mengantisipasi dan memecahkan masalah dalam pengembangan dan pemanfaatan sumberdaya hutan melalui pendekatan ilmiah</fns:misi>
+        <fns:misi>3. Mewujudkan institusi pendidikan tinggi yang menjadi acuan bagi berbagai pihak dalam pengembangan dan pemanfaatan hutan dalam lingkup regional, nasional dan internasional</fns:misi>
+        <fns:pstudi>Program Studi Kehutanan</fns:pstudi>
+        <fns:alamat>-</fns:alamat>
+    </owl:Class>
+    <!-- kehutanan-->
+
+</rdf:RDF>
