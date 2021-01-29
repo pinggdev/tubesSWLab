@@ -22,4 +22,5 @@ foreach($ambilFakultas as $row) {
     $pstudi = $query->all("$row", 'fns:pstudi');
     $alamat = $query->get("$row", 'fns:alamat');
 }
+
 ?>
